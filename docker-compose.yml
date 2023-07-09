@@ -20,7 +20,7 @@ services:
       context: ./micro-service-log
       dockerfile: ./Dockerfile
     ports:
-      - '8889:8889'
+      - '9999:9999'
   rabbitmq:
     image: rabbitmq
     ports:

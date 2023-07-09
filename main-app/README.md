@@ -29,6 +29,7 @@
 ## Installation
 
 ```bash
+# node v18.16.1
 $ pnpm install
 ```
 

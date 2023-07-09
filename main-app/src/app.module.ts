@@ -9,16 +9,18 @@ import { AppController } from './app.controller';
         name: 'CALC_SERVICE',
         transport: Transport.TCP,
         options: {
+          // host: '192.168.0.106',
+          host: '0.0.0.0',
           port: 8888,
         },
       },
-    ]),
-    ClientsModule.register([
       {
         name: 'LOG_SERVICE',
         transport: Transport.TCP,
         options: {
-          port: 8889,
+          // host: '192.168.0.106',
+          host: '0.0.0.0',
+          port: 9999,
         },
       },
     ]),
